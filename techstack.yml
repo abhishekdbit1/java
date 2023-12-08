@@ -1,11 +1,11 @@
 repo_name: abhishekdbit1/java
-report_id: 944f708c65dcd5361d547b9aa50719f7
+report_id: db5ceb9ed26139d975db4b97135a7138
 repo_type: Public
-timestamp: '2023-11-24T11:16:12+00:00'
+timestamp: '2023-12-08T14:30:12+00:00'
 requested_by: marcin-cebo
 provider: github
 branch: master
-detected_tools_count: 8
+detected_tools_count: 9
 tools:
 - name: Java
   description: A concurrent, class-based, object-oriented, language specifically designed
@@ -43,7 +43,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/11563/actions.png
-  detection_source: ".github/workflows/run-validations.yml"
+  detection_source: ".github/workflows/commands-handler.yml"
   last_updated_by: Serhii Mamontov
   last_updated_on: 2023-01-03 07:23:21.000000000 Z
 - name: Gradle
@@ -55,7 +55,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Java Build Tools
   image_url: https://img.stackshare.io/service/975/gradlephant-social-black-bg.png
-  detection_source: gradlew
+  detection_source: build.gradle
   last_updated_by: marcin-cebo
   last_updated_on: 2022-12-06 09:26:50.000000000 Z
 - name: Istio
@@ -91,6 +91,20 @@ tools:
   category: Analytics
   sub_category: Business Intelligence
   image_url: https://img.stackshare.io/service/11236/Group_22__3_.png
+  detection_source: build.gradle
+  last_updated_by: marcin-cebo
+  last_updated_on: 2023-03-06 11:29:49.000000000 Z
+- name: com.fasterxml.jackson.core:jackson-databind
+  description: 'General data-binding functionality for Jackson: works on core streaming
+    API'
+  version: 2.14.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: github.com/abhishekdbit1/java/blob/master/build.gradle
   detection_source: build.gradle
   last_updated_by: marcin-cebo
   last_updated_on: 2023-03-06 11:29:49.000000000 Z
